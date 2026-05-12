@@ -16,7 +16,9 @@ export HF_HOME=/cache/huggingface
 export LOCAL_NIM_CACHE=/cache/nim
 export NGC_API_KEY=nvapi-..... Key de NVIDIA de la DGX
 
-#algunos demos y containers de NIM refieren a esta misma clave con otro nombre, así que hay que definirla dos veces, es el camino más corto
+# algunos demos y containers de NIM refieren a esta misma clave con otro nombre, así que hay que definirla dos veces,
+# es el camino más corto
+
 export NGC_CLI_API_KEY=nvapi-..... Key de NVIDIA de la DGX
 ```
 
